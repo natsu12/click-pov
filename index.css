@@ -1,0 +1,19 @@
+.container {
+  width: 760px;
+  margin: 20px auto;
+}
+
+.test {
+  margin-top: 20px;
+  height: 100px;
+  width: 300px;
+  border: 1px black  solid;
+  text-align: center;
+  line-height: 100px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 20px;
+  margin-left: 20px;
+}
