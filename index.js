@@ -14,7 +14,7 @@ $(function  () {
   var onclickEvent = function() {
     times++;
 
-    if (times >= 1000) {
+    if (times >= 20000) {
       $('.result').text('恭喜你已完成，请截图带面板私聊发给主板');
     } else {
       $('.result').text('你已点击'+times+'次');
@@ -25,7 +25,5 @@ $(function  () {
 
   if (IsPC()) {
     $('.test')[0].addEventListener("click", onclickEvent, false);
-  } else {
-    $('.test')[0].addEventListener("touchstart", onclickEvent, false);
   }
 })
