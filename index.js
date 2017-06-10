@@ -25,5 +25,7 @@ $(function  () {
 
   if (IsPC()) {
     $('.test')[0].addEventListener("click", onclickEvent, false);
+  } else {
+    $('.test')[0].addEventListener("touchstart", onclickEvent, false);
   }
 })
